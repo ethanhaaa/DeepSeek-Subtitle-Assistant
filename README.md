@@ -56,11 +56,6 @@
 
 不要将 API Key 写入源代码，也不要上传到 GitHub。
 
-格式：
-
-`DEEPSEEK_API_KEY=你的API Key`
-
-`.env` 不应该上传到 GitHub。
 
 ## 项目结构
 
