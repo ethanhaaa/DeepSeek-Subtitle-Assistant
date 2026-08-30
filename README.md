@@ -38,9 +38,23 @@
 
 `原文件名_DeepSeek结果.srt`
 
-## API Key 配置
+## API Key
 
-程序使用 `.env` 文件保存 DeepSeek API Key。
+首次运行程序时，会要求输入 DeepSeek API Key。
+
+程序会将 API Key 保存在当前 Windows 用户的本机配置目录中。
+
+以后再次启动程序时，无需重复输入。
+
+可以通过：
+
+设置 → API Key 设置
+
+修改、测试或删除 API Key。
+
+请妥善保管自己的 API Key。
+
+不要将 API Key 写入源代码，也不要上传到 GitHub。
 
 格式：
 
